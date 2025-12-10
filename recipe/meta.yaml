@@ -1,5 +1,5 @@
 {% set name = "ansys-tools-common" %}
-{% set version = "0.3.1" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ansys_tools_common-{{ version }}.tar.gz
-  sha256: 36ea267ac137b269aab0af241577c1fa657f7c2f4f2f68ef5d014a23d569e637
+  sha256: 68e4c2949d05748bba8e6c66dea3f70dd507b7db7c434388f2beff0e30beeb40
 
 build:
   entry_points:
