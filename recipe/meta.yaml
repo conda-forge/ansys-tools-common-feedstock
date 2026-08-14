@@ -1,13 +1,13 @@
 {% set name = "ansys-tools-common" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ansys_tools_common-{{ version }}.tar.gz
-  sha256: 54e884b44e00d8fb847a149a4c27d2d9c051049e7ffca933f3049901ac18d127
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/ansys_tools_common-{{ version }}.tar.gz
+  sha256: f9a69834d12eb066316b20c2538bce33031ee4a9e5ffc1ab067e24da947f0b66
 
 build:
   entry_points:
